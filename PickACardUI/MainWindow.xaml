@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PickACardUI"
         mc:Ignorable="d"
-        Title="Card Auto Picker Game" Height="300" Width="800">
+        Title="Card Auto Picker Game" Height="300" Width="800" ResizeMode="NoResize">
     
     <Grid>
         <Grid.ColumnDefinitions>
