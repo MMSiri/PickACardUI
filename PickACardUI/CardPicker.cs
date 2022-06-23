@@ -39,13 +39,13 @@ namespace PickACardUI
             // Get random number from 1 - 4
             int value = random.Next(1, 5);
             // if it's 1 then return string Spades
-            if (value == 1) return "Spades";
+            if (value == 1) return "Spades ♠";
             // if it's 2 then return string Hearts
-            if (value == 2) return "Hearts";
+            if (value == 2) return "Hearts ♥️";
             // if it's 3 then return string Clubs
-            if (value == 3) return "Clubs";
+            if (value == 3) return "Clubs ♣️";
             // if nothing returned yet, return string Diamonds
-            return "Diamonds";
+            return "Diamonds ♦️";
         }
     }
 }
